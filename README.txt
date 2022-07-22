@@ -1,8 +1,7 @@
-MDB5
-Version: FREE 4.0.0
+## ThreeJS Particle Effect
 
-Documentation:
-https://mdbootstrap.com/docs/standard/
-
-Contact:
-office@mdbootstrap.com
+### Sphere:
+```const geometry = new THREE.SphereBufferGeometry(3.5, 65, 65);
+   const particleGeometry = new THREE.BufferGeometry;
+   const particleCount = 2000;
+```
